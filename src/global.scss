@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("./assets/fonts/Roboto/Roboto-Regular.ttf") format("ttf"),
+  url("./assets/fonts/Roboto/Roboto-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "RobotoMedium";
+  src: url("./assets/fonts/Roboto/Roboto-Medium.ttf") format("ttf"),
+  url("./assets/fonts/Roboto/Roboto-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url("./assets/fonts/Roboto/Roboto-Bold.ttf") format("ttf"),
+  url("./assets/fonts/Roboto/Roboto-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "RobotoBlack";
+  src: url("./assets/fonts/Roboto/Roboto-Black.ttf") format("ttf"),
+  url("./assets/fonts/Roboto/Roboto-Black.ttf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'RobotoBold', sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+  line-height: 26px;
+  margin: 0 0 15px
+}
+
